@@ -8,7 +8,7 @@ pointer = open(filename, 'w') #you should notice this pointer
 
 
 # one_line = pointer.readline() #read one line
-# one_line_limited = pointer.readline(2) # you can limit readed character in a line
+# one_line_limited = pointer.readline(2) # you can limit number of character will be readed
 # print(one_line_limited)
 # contents = pointer.read() #read all
 # print(contents)

@@ -7,7 +7,7 @@ class Animals:
         print(self.name," ", self.legs);
 
 
-    # implement hash vs eq is very important
+    # override __hash__ vs __eq__ is very important
     def __hash__(self) -> int:
         return hash(self.name)+hash(self.legs)
 
